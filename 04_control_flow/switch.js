@@ -1,3 +1,5 @@
+// if the case is statisfy the condition that all the below case will run automatically except default thats why we use break... 
+
 // switch (key) {
 //     case value:
         
