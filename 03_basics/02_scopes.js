@@ -1,29 +1,27 @@
 // global scope: define outside the block,global scope mai jo bhi likhenge wo block scope mai available hoti hai
 // block scope : define inside the block,magr block scope ki value bhar accessible nhi honi chaiye
 
-
-// {} this curly braces is called scope... 
+// {} this curly braces is called scope...
 
 // if (true) {
 //     let a = 10 //block scope the value define inside the block cant not access outside the block
 //     const b = 20
-//     var c=30    
+//     var c=30
 // }
-// console.log(a); // error :::: a is not defined 
+// console.log(a); // error :::: a is not defined
 // console.log(b);  //error ::: b is not defined
 // console.log(c);  //30
 
-
 // ++++++++++++++++++++++++++++++++
-// var c=300;   
+// var c=300;
 // if (true) {
-//     var c=30    
+//     var c=30
 // }
 // console.log(c);  //30
 // ++++++++++++++++++++++++++++++++++
 // var c=300;
 // if (true) {
-//     c=30    
+//     c=30
 // }
 // console.log(c);  //30
 
@@ -35,19 +33,21 @@
 
 // if (true) {
 //    let a=10
-//     c=30    
+//     c=30
 //     console.log("a2",a); //a2 10
 //     console.log("c2",c); //c2 30
-    
+
 // }
 // console.log("a3",a);  //a3 300
 // console.log("c3",c);  //30 its value changes outside the block
 
 // +++++++++++++++++++++++++++
-// nested scope 
+// nested scope
 
-// closure:::child function can access the variable of parent function 
-
+// closure:::child function can access the variable of parent function
+//When two is called inside one, it has access to the variables in the scope of one. This is possible due to JavaScript closures.
+// A closure is created when an inner function retains access to variables in its outer function's scope, even if the outer function has finished executing.
+// So, when console.log(username) is executed, it can access username because two is enclosed within one and has access to its scope.
 
 // function one(){
 //     const username = "hitesh"
@@ -63,10 +63,8 @@
 // }
 
 // one()
- 
 
 // ++++++++++++++++++++++++++++++++
-
 
 // if (true) {
 //     const username = "hitesh"
@@ -78,7 +76,6 @@
 // }
 
 // console.log(username); //  username is not defined
-
 
 // // ++++++++++++++++++ interesting ++++++++++++++++++
 //both the function are declare with 2 different method,1st is define direct function ,2nd is define a function and assigned its value to a variable
@@ -92,21 +89,19 @@
 // addTwo(5)
 // const addTwo = function(num){
 //     return num + 2
-// } 
+// }
 // addTwo(5) ////return hua hai print nhi krwaya
 
 // +++++++++++++++++++++++++++++++++++++++++
-//  jab hum function se phele bhi call krdenge to koi error nhi dega 
+//  jab hum function se phele bhi call krdenge to koi error nhi dega
 
-
-console.log(addone(5));  
-function addone(num){
-    return num + 1
+console.log(addone(5));
+function addone(num) {
+  return num + 1;
 }
 
-const addTwo = function(num){
-    return num + 2
-} 
+const addTwo = function (num) {
+  return num + 2;
+};
 
-
-console.log(addTwo(5))
+console.log(addTwo(5));

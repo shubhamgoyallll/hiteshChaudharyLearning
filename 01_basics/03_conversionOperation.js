@@ -1,10 +1,10 @@
 // let score = 33;
-//console.log(typeof score); //number
-//console.log(typeof(score)); //number
+// console.log(typeof score); //number
+// console.log(typeof score); //number
 
- // +++++++++++++++++++++++++++++++
+// +++++++++++++++++++++++++++++++
 
- // let score = "33";
+// let score = "33";
 //console.log(typeof score); //string
 //console.log(typeof(score)); //string
 
@@ -26,16 +26,16 @@
 // let score = "33abc";
 // let valueInNumber = Number(score)
 // console.log(typeof valueInNumber); number
-//console.log(valueInNumber); NaN (not a number)
+// console.log(valueInNumber); NaN (not a number)
 
 // +++++++++++++++++++++++++++
 
 // WHEN VALUE IS NULL THEN TYPE CONVERSION TO Number
 
-// let score = null
+// let score = null;
 // console.log(typeof score); //object
-// console.log(typeof(score)); //object
-// let valueInNumber = Number(score)
+// console.log(typeof score); //object
+// let valueInNumber = Number(score);
 // console.log(typeof valueInNumber); //number
 // console.log(valueInNumber); // 0
 
@@ -97,31 +97,26 @@
 // console.log(typeof booleanIsLoggedIn);//boolean
 //  console.log(booleanIsLoggedIn);//true
 
- //+++++++++++++++++++++++++++++++++++++++++
+//+++++++++++++++++++++++++++++++++++++++++
 
 // let isLoggedIn = ""
 // let booleanIsLoggedIn = Boolean(isLoggedIn) ;
 // console.log(typeof booleanIsLoggedIn);//boolean
 // console.log(booleanIsLoggedIn);//false
 
-
 // +++++++++++++++++++++++++++++++++++++++++++++
-
 
 // let isLoggedIn = undefined;
 // let booleanIsLoggedIn = Boolean(isLoggedIn) ;
 // console.log(typeof booleanIsLoggedIn);//boolean
 // console.log(booleanIsLoggedIn);//false
 
-
 // ++++++++++++++++++++++++++++++++++++++++++++++++
-
 
 // let isLoggedIn = null;
 // let booleanIsLoggedIn = Boolean(isLoggedIn) ;
 // console.log(typeof booleanIsLoggedIn);//boolean
 // console.log(booleanIsLoggedIn);//false
-
 
 // ++++++++++++++++++++++++++++++++++
 
@@ -130,9 +125,7 @@
 // "" => false
 // "hitesh" => true
 
-
 // ++++++++++++++++++++++++++++++++++++
-
 
 // let someNumber = 33
 // let stringNumber = String(someNumber)
@@ -162,12 +155,10 @@
 
 // +++++++++++++++++++++++++++++++++++++++++++++++++++
 
-
 // let someNumber = "33ab";
 // let stringNumber = String(someNumber)
 // console.log(typeof stringNumber); //string
 // console.log(stringNumber); // 33ab
-
 
 // *********************** Operations ***********************
 
@@ -205,14 +196,12 @@ or agr string last mai hai to phele wale ko number i tarah treat kiya jega
 // console.log(1 + 2 + "2");  //32
 // console.log( (3 + 4) * 5 % 3); //2
 
-
 // +++++++++++++++++++++++
 
 //trick : boolean ka increament kr rhe hai to isliye 1 aaya means boolean ka conversion kr rhe hai
 // console.log(+true); //1
 // console.log(true+); //given a error
 // console.log(+""); // 0 because empty paranthese give boolean value "false" and by adding + before it get converted to number
-
 
 // ++++++++++++++++++++++++++++++++++++++++
 // not a good practice
@@ -228,7 +217,6 @@ or agr string last mai hai to phele wale ko number i tarah treat kiya jega
 // ++gameCounter;
 // console.log(gameCounter); //101
 
-
 // let x = 3;
 // const y = x++;
 
@@ -240,10 +228,6 @@ or agr string last mai hai to phele wale ko number i tarah treat kiya jega
 
 // console.log(`a:${a}, b:${b}`);
 // // Expected output: "a:4, b:4"
-
-
-
-
 
 // link to study
 // https://tc39.es/ecma262/multipage/abstract-operations.html#sec-type-conversion
